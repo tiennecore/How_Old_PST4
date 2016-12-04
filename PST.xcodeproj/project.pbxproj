@@ -14,6 +14,12 @@
 		6CAD1CDF1DF06C1E000B12C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CAD1CDD1DF06C1E000B12C1 /* LaunchScreen.storyboard */; };
 		6CAD1CEA1DF06C1E000B12C1 /* PSTTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAD1CE91DF06C1E000B12C1 /* PSTTests.swift */; };
 		6CAD1CF51DF06C1E000B12C1 /* PSTUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CAD1CF41DF06C1E000B12C1 /* PSTUITests.swift */; };
+		6CB99CBE1DF4736A0040E97E /* user.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB99CBC1DF4736A0040E97E /* user.storyboard */; };
+		6CB99CC01DF473C40040E97E /* Begin_the_game.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB99CBF1DF473C40040E97E /* Begin_the_game.storyboard */; };
+		6CB99CC31DF474330040E97E /* Menu.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6CB99CC11DF474330040E97E /* Menu.storyboard */; };
+		6CB99CC71DF475A60040E97E /* set_userViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB99CC61DF475A60040E97E /* set_userViewController.swift */; };
+		6CB99CC91DF475D80040E97E /* begin_the_gameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB99CC81DF475D80040E97E /* begin_the_gameViewController.swift */; };
+		6CB99CCB1DF475F80040E97E /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CB99CCA1DF475F80040E97E /* MenuViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +53,12 @@
 		6CAD1CF01DF06C1E000B12C1 /* PSTUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PSTUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6CAD1CF41DF06C1E000B12C1 /* PSTUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PSTUITests.swift; sourceTree = "<group>"; };
 		6CAD1CF61DF06C1E000B12C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6CB99CBD1DF4736A0040E97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/user.storyboard; sourceTree = "<group>"; };
+		6CB99CBF1DF473C40040E97E /* Begin_the_game.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Begin_the_game.storyboard; sourceTree = "<group>"; };
+		6CB99CC21DF474330040E97E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Menu.storyboard; sourceTree = "<group>"; };
+		6CB99CC61DF475A60040E97E /* set_userViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = set_userViewController.swift; sourceTree = "<group>"; };
+		6CB99CC81DF475D80040E97E /* begin_the_gameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = begin_the_gameViewController.swift; sourceTree = "<group>"; };
+		6CB99CCA1DF475F80040E97E /* MenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +112,12 @@
 				6CAD1CD41DF06C1E000B12C1 /* AppDelegate.swift */,
 				6CAD1CD61DF06C1E000B12C1 /* ViewController.swift */,
 				6CAD1CD81DF06C1E000B12C1 /* Main.storyboard */,
+				6CB99CC11DF474330040E97E /* Menu.storyboard */,
+				6CB99CCA1DF475F80040E97E /* MenuViewController.swift */,
+				6CB99CBF1DF473C40040E97E /* Begin_the_game.storyboard */,
+				6CB99CC81DF475D80040E97E /* begin_the_gameViewController.swift */,
+				6CB99CBC1DF4736A0040E97E /* user.storyboard */,
+				6CB99CC61DF475A60040E97E /* set_userViewController.swift */,
 				6CAD1CDB1DF06C1E000B12C1 /* Assets.xcassets */,
 				6CAD1CDD1DF06C1E000B12C1 /* LaunchScreen.storyboard */,
 				6CAD1CE01DF06C1E000B12C1 /* Info.plist */,
@@ -233,8 +251,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6CAD1CDF1DF06C1E000B12C1 /* LaunchScreen.storyboard in Resources */,
+				6CB99CBE1DF4736A0040E97E /* user.storyboard in Resources */,
 				6CAD1CDC1DF06C1E000B12C1 /* Assets.xcassets in Resources */,
+				6CB99CC31DF474330040E97E /* Menu.storyboard in Resources */,
 				6CAD1CDA1DF06C1E000B12C1 /* Main.storyboard in Resources */,
+				6CB99CC01DF473C40040E97E /* Begin_the_game.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,7 +280,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6CB99CC71DF475A60040E97E /* set_userViewController.swift in Sources */,
+				6CB99CCB1DF475F80040E97E /* MenuViewController.swift in Sources */,
 				6CAD1CD71DF06C1E000B12C1 /* ViewController.swift in Sources */,
+				6CB99CC91DF475D80040E97E /* begin_the_gameViewController.swift in Sources */,
 				6CAD1CD51DF06C1E000B12C1 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -310,6 +334,22 @@
 				6CAD1CDE1DF06C1E000B12C1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB99CBC1DF4736A0040E97E /* user.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB99CBD1DF4736A0040E97E /* Base */,
+			);
+			name = user.storyboard;
+			sourceTree = "<group>";
+		};
+		6CB99CC11DF474330040E97E /* Menu.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6CB99CC21DF474330040E97E /* Base */,
+			);
+			name = Menu.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -503,6 +543,7 @@
 				6CAD1CFB1DF06C1F000B12C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CAD1CFC1DF06C1F000B12C1 /* Build configuration list for PBXNativeTarget "PSTTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +552,7 @@
 				6CAD1CFE1DF06C1F000B12C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		6CAD1CFF1DF06C1F000B12C1 /* Build configuration list for PBXNativeTarget "PSTUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +561,7 @@
 				6CAD1D011DF06C1F000B12C1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
